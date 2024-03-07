@@ -1,0 +1,55 @@
+body {
+    font-size: 16px;
+    font-family: 'Outfit', serif;
+    background-color: #F3E5D7;
+    background-position: center;
+}
+.container {
+    display: flex; /* or inline-flex */
+    justify-content: center;
+}
+
+.hola {
+    text-align: justify;
+    border: 2px solid whitesmoke;
+    border-radius: 10px;
+    padding: 30px;
+    width: 700px;
+    height: auto;
+    background-color: white;
+}
+
+.title1 {
+    font-family: "Outfit";
+    color: hsl(332, 51%, 32%);
+}
+
+.title2 {
+    font-family: "Outfit";
+    color: #854632;
+}
+.viñeta1 {
+    display: flex;
+    justify-content: space-around;
+    li {
+        color: hsl(332, 51%, 32%);
+    }
+    li span {
+        color: hsl(30, 10%, 34%);
+    }
+    font-family: "Outfit";
+    list-style-image: none;
+    list-style-type: disc;
+}
+
+.viñeta2 {
+    li {
+        color: #854632;
+    }
+    li span {
+        color: hsl(30, 10%, 34%);
+    }
+    font-family: "Outfit";
+    list-style-image: none;
+    list-style-type: disc;
+}
